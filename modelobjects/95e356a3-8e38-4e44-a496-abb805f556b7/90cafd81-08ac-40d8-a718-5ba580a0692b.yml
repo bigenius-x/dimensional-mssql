@@ -1,0 +1,49 @@
+id: '90cafd81-08ac-40d8-a718-5ba580a0692b'
+name: 'Country'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'c89e5401-f6b7-4b2d-bce5-dccf4e5cec56'
+    name: 'COUNTRY'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c3ff99a3-9a02-4897-b901-8c1a1d73d28a'
+    name: 'COUNTRY_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8d027b1a-ae1d-43a7-a86c-127953ab43ba'
+    name: 'ISO_CODE_2'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8c21f28d-bccb-467a-a7dc-459c49f8075c'
+    name: 'NUMERIC_CODE'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#e5854651-06de-44d4-b869-e20cedb601b0'
+  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
+  - '$initial#name#country'
+propertyValues: []

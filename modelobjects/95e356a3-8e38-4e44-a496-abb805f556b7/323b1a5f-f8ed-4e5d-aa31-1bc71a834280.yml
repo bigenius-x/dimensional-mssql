@@ -1,0 +1,49 @@
+id: '323b1a5f-f8ed-4e5d-aa31-1bc71a834280'
+name: 'Phonenumber'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '34c806b0-e8b7-4841-a6d4-c0872d7bce0a'
+    name: 'FOREIGN_KEY_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '8efcf6ff-e9a6-406c-9136-d6eed0177ca4'
+    name: 'PHONENUMBER_ID'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'a2d55c34-9117-4238-b845-967c06fdec21'
+    name: 'PHONE_NUMBER'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'f109509f-47ae-4390-b416-004ff87625b9'
+    name: 'PHONE_NUMBER_TYPE_CODE'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+tags:
+  - '$discovery#id#e5854651-06de-44d4-b869-e20cedb601b0'
+  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
+  - '$initial#name#phonenumber'
+propertyValues: []

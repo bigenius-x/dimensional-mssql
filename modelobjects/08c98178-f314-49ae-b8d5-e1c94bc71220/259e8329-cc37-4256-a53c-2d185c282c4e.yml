@@ -1,0 +1,237 @@
+id: '259e8329-cc37-4256-a53c-2d185c282c4e'
+name: 'Loyaltycard'
+description: 'Generated Model Object from Loyaltycard'
+modelObjectTypeId: '08c98178-f314-49ae-b8d5-e1c94bc71220'
+terms:
+  - id: 'f09c88cd-b421-4496-bfd9-d0f390168892'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 255
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '4bc332c5-f565-44d3-9458-d93776c582f2'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'ed85b4ec-182e-4ae5-8369-0530fdf04d1d'
+    name: 'BG_UpdateTimestamp'
+    description: 'Default term with the update timestamp'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '5a51b83b-64c3-4004-b741-1e6d8356931e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '05a88683-34e6-49ac-a503-925ecd9d5c15'
+    name: 'BG_ValidFromTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'dae67eab-4d4c-415c-b8a2-98bc6820719d'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'c4d04a50-f042-4ef8-8ee4-1170a2edf4ce'
+    name: 'BG_ValidToTimestamp'
+    description: 'Default term for the technical validity or objects'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: '8a0e3b61-609b-4b0b-9a14-58a7730ed12e'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '8001fb91-679d-4ede-9493-5633a684ee72'
+    name: 'BG_ErrorCount'
+    description: 'Default term for the cleanse error count'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '27b8472b-1aec-4de0-9769-babc4a384c9a'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'cb84d602-98c9-4eab-98de-9a19b3c89f77'
+    name: 'BG_ErrorDescription'
+    description: 'Default term for the cleanse error description'
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+      length: 4000
+    defaultTermId: '020b2582-0e66-4db8-9c9e-561fc42a749b'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '42cb7f5c-a693-4f45-b9d3-ae75d9a443b5'
+    name: 'Loyaltycard_ID'
+    description: 'Default term with the entity identity'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: '8d8f5dd6-7df5-4855-8c7d-6ffa4e2e4cd6'
+    name: 'BG_EffectiveTimestamp'
+    description: 'Default term, which can be mapped to identify the correct record in case of a lookup into a historized table'
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+    defaultTermId: 'd7d6f3a3-92c5-40a0-b136-41ab86c199a5'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: true
+    hiddenInSource: true
+    hiddenInTarget: false
+  - id: 'bd489aba-5dec-42f4-9284-ae4fe9d878d6'
+    name: 'BG_Cleanse_ID'
+    description: 'Default term for the cleanse row id'
+    dataType:
+      platformDataTypeId: 'ad190237-5c2c-4a43-aa8c-3fda2081c1c6'
+    defaultTermId: 'a36a696d-59f5-487e-a955-96c6c2f0bcad'
+    isDefaultTerm: true
+    isIdentity: true
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+  - id: 'ee9bb37b-6a73-4aef-9328-4dea0b9d97e3'
+    name: 'LOYALTYCARD_ID1'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: true
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: '67a05866-fadb-455f-ad4f-c5c590ba29bd'
+    name: 'FK_Customer_CUSTOMER_ID1'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isBusinessKeyForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'b00df18d-caa5-493a-9198-f4da6e4aa174'
+    name: 'Customer_Customer_ID'
+    description: 'Default term with the identity of the referenced entity'
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    defaultTermId: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
+    isDefaultTerm: true
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: true
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: true
+    isIdentityForeignKey: true
+  - id: '6fabe978-f413-4ef2-9105-9bbf3490a1be'
+    name: 'VALID_FROM'
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+  - id: 'c75dc24a-09e6-45e4-b309-f0d79a7cde45'
+    name: 'VALID_TO'
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
+    isIdentity: false
+    isBusinessKey: false
+    isForeignKey: false
+    isNullable: false
+    hiddenInSource: false
+    hiddenInTarget: false
+dataflows:
+  - id: '8a6cb15c-8cd3-4558-8fee-0cb9a3f40cb9'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '9270c2cb-2100-4aaf-a10d-fe262e32408f'
+        name: 'Set1'
+        termMappings:
+          - termId: 'f09c88cd-b421-4496-bfd9-d0f390168892'
+          - termId: '4bc332c5-f565-44d3-9458-d93776c582f2'
+          - termId: 'ed85b4ec-182e-4ae5-8369-0530fdf04d1d'
+          - termId: '05a88683-34e6-49ac-a503-925ecd9d5c15'
+          - termId: 'c4d04a50-f042-4ef8-8ee4-1170a2edf4ce'
+          - termId: '8001fb91-679d-4ede-9493-5633a684ee72'
+          - termId: 'cb84d602-98c9-4eab-98de-9a19b3c89f77'
+          - termId: '42cb7f5c-a693-4f45-b9d3-ae75d9a443b5'
+          - termId: '8d8f5dd6-7df5-4855-8c7d-6ffa4e2e4cd6'
+            expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.8cb33767-aee0-4ef2-bea7-658ebbb28afe'
+          - termId: 'bd489aba-5dec-42f4-9284-ae4fe9d878d6'
+          - termId: 'ee9bb37b-6a73-4aef-9328-4dea0b9d97e3'
+            expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.131eca8c-d72e-4e12-9df5-dd026bd364a5'
+          - termId: '67a05866-fadb-455f-ad4f-c5c590ba29bd'
+            expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.86cda2d0-8ed5-418b-a39c-17de1a65dd52'
+          - termId: 'b00df18d-caa5-493a-9198-f4da6e4aa174'
+          - termId: '6fabe978-f413-4ef2-9105-9bbf3490a1be'
+            expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.7679b659-d39b-4be5-aeea-d35789afb7af'
+          - termId: 'c75dc24a-09e6-45e4-b309-f0d79a7cde45'
+            expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.1e0411d5-9996-4ddd-a8ec-4e2c8c9fcf03'
+        dataflowModelObjects:
+          - id: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7'
+            sourceModelObjectId: '5110100e-a1f1-49b2-9c2a-89da4a13ee52'
+            alias: 's1'
+relationships:
+  - id: 'a2267ed5-6023-46a3-9d0f-4cd002e34f54'
+    referencedModelObjectId: 'a6b4c36d-5cbe-4286-b5e2-52209649128b'
+    role: 'Customer'
+    relationshipTerms:
+      - termId: '67a05866-fadb-455f-ad4f-c5c590ba29bd'
+        referenceTermId: 'bcd1bbcc-b49e-453b-a1c8-ebe6a3f0b26d'
+    additionalTermIds:
+      - 'b00df18d-caa5-493a-9198-f4da6e4aa174'
+    propertyValues: []
+    historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
+    missingBkBehaviorId: '70e208b0-d8fa-4008-883b-4828d1dbf9b1'
