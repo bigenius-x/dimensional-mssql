@@ -5,3 +5,9 @@ description: 'Demo Project for Dimensional MSSQL'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
   version: '1.6.1'
+sourceSystems:
+  - id: '2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
+    name: 'Blackforest Markets'
+    description: ''
+    sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
+    activeDiscovery: 'e5854651-06de-44d4-b869-e20cedb601b0'
