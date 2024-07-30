@@ -1,3 +1,1 @@
-HiddenWarnings:
-  - Code: ''
-    Message: 'Model object ''ItemUnitOfMeasure'' of type ''Entity'' has a relationship to a historized model object, but the effective timestamp default term (BG_EffectiveTimestamp) not mapped. Relations will be resolved to the latest version in related model object.'
+HiddenWarnings: []
