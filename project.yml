@@ -4,7 +4,7 @@ name: 'Demo Github'
 description: 'Demo Project for Dimensional MSSQL'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
-  version: '1.6.1'
+  version: '1.7.0-rc00'
 sourceSystems:
   - id: '2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
     name: 'Blackforest Markets'
