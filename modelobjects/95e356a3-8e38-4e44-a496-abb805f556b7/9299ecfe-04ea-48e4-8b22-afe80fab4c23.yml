@@ -4,48 +4,48 @@ modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
   - id: '0feeaab5-2236-49aa-9f0f-5f412162f632'
     name: 'EMPLOYEE_ID'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: '72bbe7f3-c739-418d-bc92-80305c3257ed'
     name: 'KITCHEN_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '2085961a-07e1-4583-be89-9dc4b593d847'
     name: 'PRODUCTIONORDER_ID'
-    dataType:
-      scale: 0
-      precision: 38
-      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 38
+      scale: 0
   - id: '0837283b-5ccc-4656-b738-0f90c8a16f73'
     name: 'PROD_DATE'
-    dataType:
-      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+propertyValues: []
 tags:
   - '$discovery#id#e5854651-06de-44d4-b869-e20cedb601b0'
-  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
   - '$initial#name#productionorder'
-propertyValues: []
+  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
