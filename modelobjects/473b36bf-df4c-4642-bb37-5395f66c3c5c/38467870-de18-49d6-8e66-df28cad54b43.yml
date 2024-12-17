@@ -219,6 +219,7 @@ terms:
       scale: 2
   - id: '73c6bc8a-bd0e-45ee-9f31-820fc154fe51'
     name: 'TRANSACTION_ID'
+    dataClassification: 'Confidential Data'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: false

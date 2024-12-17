@@ -102,6 +102,7 @@ terms:
       scale: 2
   - id: '6376deb5-a1ab-47ee-ba76-5ff3a4e42179'
     name: 'TRANSACTION_ID'
+    dataClassification: 'Confidential Data'
     hiddenInSource: false
     hiddenInTarget: false
     isBusinessKey: false
@@ -110,6 +111,7 @@ terms:
     isNullable: false
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+    propertyValues: []
   - id: 'fa9c08e7-3355-4cea-98e9-4f1c53500e70'
     name: 'TRANSACTION_LINE_NO'
     hiddenInSource: false
