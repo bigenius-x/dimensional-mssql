@@ -4,196 +4,196 @@ modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
 terms:
   - id: '69cc1314-d6a0-48cb-8e8e-3bc5820d2086'
     name: 'ADDRESS_LINE1'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'bb00868a-4413-4a36-97ed-2fcacd16fe8d'
     name: 'ADDRESS_LINE2'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '87cf13bf-176a-41d5-9f34-c9cbc9aaa315'
     name: 'ADDRESS_LINE3'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'd4a68d25-00dc-4b87-b788-6fccd041a62e'
     name: 'BIRTH_DATE'
-    dataType:
-      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
   - id: 'cd63a01e-e0d9-44f7-acea-e6597693940e'
     name: 'BRANCH_ID'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: 'e256076a-9bfe-4034-9af7-f6fe2b5686b6'
     name: 'COUNTRY'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '45e272e8-c995-4399-850e-5f788046c44b'
     name: 'COUNTRY_ISO_CODE'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'd7102ef4-64eb-4daf-8dcc-586b0c9938dd'
     name: 'DEPARTMENT_ID'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: '8e6544f2-edb1-48ab-a2ea-42e945cf4a87'
     name: 'EMPLOYEE_ID'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: 'b778dee7-37bb-45f3-983e-8b0c9fb5130c'
     name: 'FIRST_HIRE_DATE'
-    dataType:
-      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
   - id: '1c3c5a60-0c47-4626-a09b-cee4ac5bbb1c'
     name: 'FIRST_NAME'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '4322ff32-f405-4d16-99ab-858f7fa0b239'
     name: 'HIRE_END_DATE'
-    dataType:
-      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
   - id: '05b778e3-3986-4d39-afe4-386b797f5c7b'
     name: 'HIRE_START_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
     dataType:
       platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '6ad237ba-0342-49b0-9333-78a1d00b644a'
     name: 'INSERT_DATE'
-    dataType:
-      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
   - id: '23279f8b-72ff-4d05-9f5a-492cc5d1cef8'
     name: 'IS_ACTIVE_RECORD'
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
   - id: '26adecf7-de35-49ee-8119-4e9be70c966e'
     name: 'JOBFUNCTION_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
     dataType:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '72e35b28-3117-49fe-88b9-58bbfb4ff980'
     name: 'LAST_NAME'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'ec565ad4-4d74-4392-b9ae-ad8e45dfd8d9'
     name: 'UPDATE_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
     dataType:
       platformDataTypeId: 'f136e1f5-12f2-451f-ad33-06fd581e5c41'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
-    hiddenInSource: false
-    hiddenInTarget: false
   - id: '22deb98c-c50e-468b-9afe-3a86fc5cf856'
     name: 'ZIP_CODE'
-    dataType:
-      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
-    isIdentity: false
-    isBusinessKey: false
-    isForeignKey: false
-    isNullable: false
     hiddenInSource: false
     hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+propertyValues: []
 tags:
   - '$discovery#id#e5854651-06de-44d4-b869-e20cedb601b0'
-  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
   - '$initial#name#employee'
-propertyValues: []
+  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
