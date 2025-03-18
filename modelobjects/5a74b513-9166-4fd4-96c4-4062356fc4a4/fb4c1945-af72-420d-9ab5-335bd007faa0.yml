@@ -1,0 +1,168 @@
+id: 'fb4c1945-af72-420d-9ab5-335bd007faa0'
+name: 'SALESHEAD'
+description: 'Generated Model Object from SALESHEAD'
+modelObjectTypeId: '5a74b513-9166-4fd4-96c4-4062356fc4a4'
+terms:
+  - id: 'dd43fdb9-e952-45e6-913d-4bea139ffcc3'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+  - id: 'ba123d3a-17ae-4452-95e0-0930cef86cba'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '27685673-2f22-4677-9ae6-6a258ea2ccf5'
+    name: 'BG_IncrementalFilter'
+    description: 'Default term for incremental load'
+    defaultTermId: 'f70ffce7-44ad-4d1a-98fd-01854032b15f'
+    hiddenInSource: true
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'f7afc941-4327-4359-b72f-7f663b794f08'
+  - id: '6e197fde-23e2-4b7e-82ef-f29ca4dd1d1f'
+    name: 'BG_DataflowName'
+    description: 'Default term for incremental load'
+    defaultTermId: 'af496643-6176-472a-8abe-b6df2e13a2fb'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '69ea9258-27f6-4ff2-849f-49d0ef048706'
+    name: 'BG_ID'
+    description: 'Default term for surrogate key of increment table'
+    defaultTermId: 'e8bfb245-78ae-42cc-93ca-ebb54f606720'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: true
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+  - id: '8ad00a80-5d9e-4fff-baa5-834bbed4e078'
+    name: 'BG_DataflowSetName'
+    description: 'Default term for incremental load'
+    defaultTermId: '3024ca99-e262-4d16-962f-23fb03943dee'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '42e4b125-c53d-4f31-a4b8-c7d9c4705772'
+    name: 'INVOICE_NO'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: 'd7a68ea8-3e94-4dc1-b47e-9d93cab4e1ce'
+    name: 'BRANCH_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '438fd5e3-6a5d-4a09-8213-88165126867d'
+    name: 'LOYALTYCARD_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '0461cdd2-385f-419e-a6ed-3371c8123a1e'
+    name: 'DELIVERY_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+  - id: '8ab91448-4025-4c8c-bd1a-ca85ce4358cb'
+    name: 'DELIVERY_TIME'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+dataflows:
+  - id: 'fddbe39e-6222-4349-a2b4-7d9984385d72'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '75f5e047-c785-4d47-889d-eb7e8ca2dba8'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280'
+            alias: 's1'
+            sourceModelObjectId: '9b2f3f67-82e1-4f5d-945b-6e89e7570156'
+        termMappings:
+          - termId: 'dd43fdb9-e952-45e6-913d-4bea139ffcc3'
+          - termId: 'ba123d3a-17ae-4452-95e0-0930cef86cba'
+          - termId: '27685673-2f22-4677-9ae6-6a258ea2ccf5'
+          - termId: '6e197fde-23e2-4b7e-82ef-f29ca4dd1d1f'
+          - termId: '69ea9258-27f6-4ff2-849f-49d0ef048706'
+          - termId: '8ad00a80-5d9e-4fff-baa5-834bbed4e078'
+          - expression: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280.5c720408-ebd9-4efa-bc46-44fb399a1a7e'
+            termId: '42e4b125-c53d-4f31-a4b8-c7d9c4705772'
+          - expression: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280.01a43ad7-f9bc-4ca7-836e-4528bd18a10e'
+            termId: 'd7a68ea8-3e94-4dc1-b47e-9d93cab4e1ce'
+          - expression: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280.e934b5f8-aebe-4627-b8e2-7f266769f864'
+            termId: '438fd5e3-6a5d-4a09-8213-88165126867d'
+          - expression: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280.a0eda4f1-9d09-4a87-b701-9905e4a5b9a9'
+            termId: '0461cdd2-385f-419e-a6ed-3371c8123a1e'
+          - expression: '30ddb46f-b8b1-4fee-9ebf-00b3e68ba280.52a1045f-9be4-4d91-8f6f-b876463106c0'
+            termId: '8ab91448-4025-4c8c-bd1a-ca85ce4358cb'
