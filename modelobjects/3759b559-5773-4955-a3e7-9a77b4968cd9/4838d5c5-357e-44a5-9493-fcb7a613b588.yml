@@ -1,0 +1,110 @@
+id: '4838d5c5-357e-44a5-9493-fcb7a613b588'
+name: 'SALESHEAD'
+description: 'Generated Model Object from SALESHEAD'
+modelObjectTypeId: '3759b559-5773-4955-a3e7-9a77b4968cd9'
+terms:
+  - id: '28b5e38e-005c-435f-97bf-64f7dcf5511b'
+    name: 'BG_LoadTimestamp'
+    description: 'Default term with the load timestamp'
+    defaultTermId: '3fdfd83b-00b6-47e7-b139-9b25993626ac'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+  - id: '7d6d0b78-7ce8-41fb-8f1f-dd4c629af4a9'
+    name: 'BG_SourceSystem'
+    description: 'Default term with an identifier of the source system'
+    defaultTermId: 'c3654f1c-5c92-4200-82ef-baac15ffa0ba'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      length: 255
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: 'ff5b3bfa-f62c-42f7-93ab-174117caa3b2'
+    name: 'INVOICE_NO'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '2fc35a8e-b04a-4ea3-823b-41f8e3925d88'
+    name: 'BRANCH_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '1e238c7f-f841-449b-b524-788123621e06'
+    name: 'LOYALTYCARD_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '59cf6aa4-963a-4540-83ba-446bf984be37'
+    name: 'DELIVERY_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '4a8bdc4b-94cd-4a71-bac1-93b6b7120ef9'
+  - id: 'ba6ff450-dfd1-43fc-9fd0-2fb685963426'
+    name: 'DELIVERY_TIME'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '88718695-75e5-413d-a8e9-fa27fe064353'
+dataflows:
+  - id: 'b35bd464-0bb1-454d-acfb-49c83346a1aa'
+    name: 'Dataflow1'
+    dataflowSets:
+      - id: '74b61991-b8b7-47d9-9a23-4d5998a30c50'
+        name: 'Set1'
+        dataflowModelObjects:
+          - id: 'b801aaee-374f-4ad8-8183-a4c52241a823'
+            alias: 's1'
+            sourceModelObjectId: 'fb4c1945-af72-420d-9ab5-335bd007faa0'
+        termMappings:
+          - termId: '28b5e38e-005c-435f-97bf-64f7dcf5511b'
+          - termId: '7d6d0b78-7ce8-41fb-8f1f-dd4c629af4a9'
+          - expression: 'b801aaee-374f-4ad8-8183-a4c52241a823.42e4b125-c53d-4f31-a4b8-c7d9c4705772'
+            termId: 'ff5b3bfa-f62c-42f7-93ab-174117caa3b2'
+          - expression: 'b801aaee-374f-4ad8-8183-a4c52241a823.d7a68ea8-3e94-4dc1-b47e-9d93cab4e1ce'
+            termId: '2fc35a8e-b04a-4ea3-823b-41f8e3925d88'
+          - expression: 'b801aaee-374f-4ad8-8183-a4c52241a823.438fd5e3-6a5d-4a09-8213-88165126867d'
+            termId: '1e238c7f-f841-449b-b524-788123621e06'
+          - expression: 'b801aaee-374f-4ad8-8183-a4c52241a823.0461cdd2-385f-419e-a6ed-3371c8123a1e'
+            termId: '59cf6aa4-963a-4540-83ba-446bf984be37'
+          - expression: 'b801aaee-374f-4ad8-8183-a4c52241a823.8ab91448-4025-4c8c-bd1a-ca85ce4358cb'
+            termId: 'ba6ff450-dfd1-43fc-9fd0-2fb685963426'
