@@ -11,4 +11,6 @@ sourceSystems:
     description: ''
     activeDiscovery: 'c87dcd0f-f8a5-4c5c-9ff8-bc24608d3189'
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
-propertyValues: []
+propertyValues:
+  - propertyId: 'c8c7e65c-43e7-4e70-919c-7a728947160b'
+    value: 'false'
