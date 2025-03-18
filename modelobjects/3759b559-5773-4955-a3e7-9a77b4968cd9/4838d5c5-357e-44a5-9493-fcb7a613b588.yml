@@ -120,6 +120,17 @@ terms:
     dataType:
       length: 1000
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: 'd3a683cb-0ea2-4992-994d-aa926d74f369'
+    name: 'UOM'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 10
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
 dataflows:
   - id: 'b35bd464-0bb1-454d-acfb-49c83346a1aa'
     name: 'Dataflow1'
@@ -155,3 +166,5 @@ dataflows:
             termId: '8a153223-98ca-4042-b799-d702afa35a96'
           - expression: 'd2a311ca-2150-4904-99f1-0b15726c2def.55158614-2f80-4f6b-8efe-4540db88fb16'
             termId: '6afdb8d0-98fc-4822-bf14-5cbfea863737'
+          - expression: 'd2a311ca-2150-4904-99f1-0b15726c2def.50fb1bef-850e-4bc8-bab4-71b231a72d8b'
+            termId: 'd3a683cb-0ea2-4992-994d-aa926d74f369'
