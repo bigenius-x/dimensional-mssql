@@ -96,18 +96,6 @@ terms:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
       precision: 10
       scale: 0
-  - id: '6f799b90-9927-4da0-a766-fb42b77f4e21'
-    name: 'BRANCH_ID'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: false
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-      precision: 10
-      scale: 0
   - id: 'b7910e3c-3e84-41d0-93e5-8dffe86b4c57'
     name: 'CASHBOX_NO'
     hiddenInSource: false
@@ -139,7 +127,5 @@ dataflows:
           - termId: 'de9e930d-78aa-410e-9fc9-7e430861481b'
           - expression: '2a73066e-8885-40a9-99fb-29902c521492.6c7032fa-6cd3-4c25-b00e-ced068c28975'
             termId: 'b90d14be-e4c5-4bef-a54d-6f0503f7f33e'
-          - expression: '2a73066e-8885-40a9-99fb-29902c521492.51043d77-100b-4ac9-bfb0-992059446601'
-            termId: '6f799b90-9927-4da0-a766-fb42b77f4e21'
           - expression: '2a73066e-8885-40a9-99fb-29902c521492.76a3b068-9124-42d3-b468-daab8ed8efb0'
             termId: 'b7910e3c-3e84-41d0-93e5-8dffe86b4c57'
