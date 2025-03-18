@@ -147,18 +147,6 @@ terms:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
       precision: 10
       scale: 0
-  - id: '2aa90406-f9dd-45de-b52e-5490d2bd64fa'
-    name: 'BRANCH_ID'
-    hiddenInSource: false
-    hiddenInTarget: false
-    isBusinessKey: true
-    isForeignKey: false
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-      precision: 10
-      scale: 0
   - id: '2b7d545a-ecdb-4b7b-8ae1-bbfe7c9dcf73'
     name: 'FK_BRANCH_BRANCH_ID1'
     hiddenInSource: false
@@ -222,7 +210,6 @@ dataflows:
           - termId: '0ac9ce12-2fe6-412d-bc34-0a560dadba5d'
           - expression: 'e59e3c40-0a84-481c-ad76-ef4342ef0df4.b90d14be-e4c5-4bef-a54d-6f0503f7f33e'
             termId: '0cc412ee-4614-4e26-bfda-099620c5c3b2'
-          - termId: '2aa90406-f9dd-45de-b52e-5490d2bd64fa'
           - termId: '2b7d545a-ecdb-4b7b-8ae1-bbfe7c9dcf73'
           - termId: '1cee4af4-b65a-4f90-b8c6-32ab38a1eac5'
           - expression: 'e59e3c40-0a84-481c-ad76-ef4342ef0df4.b7910e3c-3e84-41d0-93e5-8dffe86b4c57'

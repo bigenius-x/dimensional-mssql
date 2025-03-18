@@ -150,19 +150,6 @@ terms:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
       precision: 10
       scale: 0
-  - id: '56970f3c-ee15-4efb-994e-30d3e44bd62d'
-    name: 'FK_POS_BRANCH_ID'
-    hiddenInSource: true
-    hiddenInTarget: false
-    isBusinessKey: false
-    isBusinessKeyForeignKey: true
-    isForeignKey: true
-    isIdentity: false
-    isNullable: false
-    dataType:
-      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
-      precision: 10
-      scale: 0
   - id: 'eff0971b-7d38-4990-9982-2269f27eadf0'
     name: 'POS_POS_ID'
     description: 'Default term with the identity of the referenced entity record'
@@ -272,7 +259,6 @@ dataflows:
           - termId: '8aa72a31-7060-4aae-b374-f3ee3b05067c'
           - expression: '91147c21-57d5-4523-814e-a17f99534ad0.4a9212ea-74b6-4da0-9551-865bede1ec46'
             termId: 'd8005cc9-fbcf-4b4e-a713-c6868a426c29'
-          - termId: '56970f3c-ee15-4efb-994e-30d3e44bd62d'
           - termId: 'eff0971b-7d38-4990-9982-2269f27eadf0'
           - expression: '91147c21-57d5-4523-814e-a17f99534ad0.150c1a85-b887-4417-973d-124df638287b'
             termId: '01858a67-e818-4c14-b24c-c50139263dac'
@@ -316,6 +302,4 @@ relationships:
     relationshipTerms:
       - referenceTermId: '0cc412ee-4614-4e26-bfda-099620c5c3b2'
         termId: 'd8005cc9-fbcf-4b4e-a713-c6868a426c29'
-      - referenceTermId: '2aa90406-f9dd-45de-b52e-5490d2bd64fa'
-        termId: '56970f3c-ee15-4efb-994e-30d3e44bd62d'
     propertyValues: []
