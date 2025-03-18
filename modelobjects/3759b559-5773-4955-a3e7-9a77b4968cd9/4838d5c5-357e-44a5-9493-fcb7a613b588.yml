@@ -179,6 +179,18 @@ terms:
       platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
       precision: 18
       scale: 2
+  - id: 'e41cf4fe-d399-4faa-97d6-57a8b68a3478'
+    name: 'CUSTOMER_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
 dataflows:
   - id: 'b35bd464-0bb1-454d-acfb-49c83346a1aa'
     name: 'Dataflow1'
@@ -230,3 +242,5 @@ dataflows:
             termId: '25761379-80a7-4cc1-b87c-79fd19a83588'
           - expression: 'd2a311ca-2150-4904-99f1-0b15726c2def.1f36d507-1113-4aeb-b5c2-f31479595139'
             termId: '4eacce91-d3d1-4f0a-8686-a40bc66b0622'
+          - expression: '77617970-4176-4695-a9ee-047c50fe1f37.08ffcd62-06fb-4a21-89c1-d0cad13c9bf4'
+            termId: 'e41cf4fe-d399-4faa-97d6-57a8b68a3478'
