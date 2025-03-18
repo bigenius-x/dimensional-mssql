@@ -198,10 +198,7 @@ dataflows:
     dataflowSets:
       - id: '9270c2cb-2100-4aaf-a10d-fe262e32408f'
         name: 'Set1'
-        dataflowModelObjects:
-          - id: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7'
-            alias: 's1'
-            sourceModelObjectId: '5110100e-a1f1-49b2-9c2a-89da4a13ee52'
+        dataflowModelObjects: []
         termMappings:
           - termId: 'f09c88cd-b421-4496-bfd9-d0f390168892'
           - termId: '4bc332c5-f565-44d3-9458-d93776c582f2'
@@ -211,18 +208,13 @@ dataflows:
           - termId: '8001fb91-679d-4ede-9493-5633a684ee72'
           - termId: 'cb84d602-98c9-4eab-98de-9a19b3c89f77'
           - termId: '42cb7f5c-a693-4f45-b9d3-ae75d9a443b5'
-          - expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.8cb33767-aee0-4ef2-bea7-658ebbb28afe'
-            termId: '8d8f5dd6-7df5-4855-8c7d-6ffa4e2e4cd6'
+          - termId: '8d8f5dd6-7df5-4855-8c7d-6ffa4e2e4cd6'
           - termId: 'bd489aba-5dec-42f4-9284-ae4fe9d878d6'
-          - expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.131eca8c-d72e-4e12-9df5-dd026bd364a5'
-            termId: 'ee9bb37b-6a73-4aef-9328-4dea0b9d97e3'
-          - expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.86cda2d0-8ed5-418b-a39c-17de1a65dd52'
-            termId: '67a05866-fadb-455f-ad4f-c5c590ba29bd'
+          - termId: 'ee9bb37b-6a73-4aef-9328-4dea0b9d97e3'
+          - termId: '67a05866-fadb-455f-ad4f-c5c590ba29bd'
           - termId: 'b00df18d-caa5-493a-9198-f4da6e4aa174'
-          - expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.7679b659-d39b-4be5-aeea-d35789afb7af'
-            termId: '6fabe978-f413-4ef2-9105-9bbf3490a1be'
-          - expression: '49cb95fd-4ae4-4e5b-aa6e-14ee82e636b7.1e0411d5-9996-4ddd-a8ec-4e2c8c9fcf03'
-            termId: 'c75dc24a-09e6-45e4-b309-f0d79a7cde45'
+          - termId: '6fabe978-f413-4ef2-9105-9bbf3490a1be'
+          - termId: 'c75dc24a-09e6-45e4-b309-f0d79a7cde45'
 relationships:
   - id: 'a2267ed5-6023-46a3-9d0f-4cd002e34f54'
     historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
