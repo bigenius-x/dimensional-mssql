@@ -108,6 +108,18 @@ terms:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
       precision: 10
       scale: 0
+  - id: '8ce0e626-62b4-4844-971c-722c40be225d'
+    name: 'BRANCH_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
 dataflows:
   - id: '3be2bcc3-46cb-4e13-b98a-8d3b54bf8281'
     name: 'Dataflow1'
@@ -129,3 +141,5 @@ dataflows:
             termId: 'b90d14be-e4c5-4bef-a54d-6f0503f7f33e'
           - expression: '2a73066e-8885-40a9-99fb-29902c521492.76a3b068-9124-42d3-b468-daab8ed8efb0'
             termId: 'b7910e3c-3e84-41d0-93e5-8dffe86b4c57'
+          - expression: '2a73066e-8885-40a9-99fb-29902c521492.51043d77-100b-4ac9-bfb0-992059446601'
+            termId: '8ce0e626-62b4-4844-971c-722c40be225d'
