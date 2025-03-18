@@ -2,71 +2,74 @@ views:
   - id: '4a1fbde2-0e1e-4d22-b4c3-bbc4e9fc0e40'
     name: 'Datapipe View 1'
     description: 'Default view for data pipe.'
-    type: 'data-pipe'
     default: true
+    type: 'data-pipe'
     modelObjects:
-      - id: '9ddda830-00e5-4732-a690-c14f2ac58251'
-      - id: '90cafd81-08ac-40d8-a718-5ba580a0692b'
-      - id: '1cf3e1bf-e515-4f82-9908-4f4008589e7d'
-      - id: '5b971ff9-b810-4ee7-b0e5-33ec104dfcdb'
-      - id: '62be29f6-d9b1-4c35-bfc0-277ea54e8202'
-      - id: '422c4982-c625-4aaf-be8b-f422cc582925'
-      - id: 'd1c4716d-8b27-4693-8df2-d96da58c70e8'
-      - id: 'dd96f719-7738-4fb9-b0aa-7c18bfddf79b'
-      - id: '0c52c311-8675-40f9-bc5a-5054a1a8494d'
-      - id: '85228f7a-0332-4594-bb5a-3746cd2f1f0f'
-      - id: '323b1a5f-f8ed-4e5d-aa31-1bc71a834280'
-      - id: 'b0d662e7-6967-4578-a4e8-ab7b118fbf3b'
-      - id: '9299ecfe-04ea-48e4-8b22-afe80fab4c23'
-      - id: '4954cbde-7d7f-4dd9-bea0-31cbcf2ab34e'
-      - id: '0d9606ad-2e53-4078-b5e8-f99a158aa139'
-      - id: 'a6a101e7-76db-49c5-bede-550745edee7e'
-      - id: 'cd475463-cb7d-45f6-9da3-64cf02dd41ef'
-      - id: 'fe16727f-fe3a-4bef-92af-7f621376d352'
-      - id: '3322ff17-72dc-45d2-a8d7-6d3122e3838d'
-      - id: '06a9cd17-3506-4e0c-80be-8b003faf4aac'
-      - id: '5110100e-a1f1-49b2-9c2a-89da4a13ee52'
-      - id: '4353b1b3-f913-47c0-865a-a0132f28eed3'
-      - id: 'e738c269-b409-4603-87e0-b9ca9cc06f6d'
-      - id: 'a6b4c36d-5cbe-4286-b5e2-52209649128b'
-      - id: '165e1362-f4b4-4e1f-a868-a9ae785aef45'
-      - id: '326560d9-00bd-42ce-885c-9942510783cc'
-      - id: '259e8329-cc37-4256-a53c-2d185c282c4e'
-      - id: 'dbaa03a0-471b-475f-8450-f50111da0095'
-      - id: '38467870-de18-49d6-8e66-df28cad54b43'
-      - id: 'c45a0659-e2e5-4beb-a7be-dbb8b9f71851'
-      - id: '85ccd98d-e08e-4d36-9cc3-21bedf56a677'
+      - id: 'b886c6ad-fe09-4049-8328-64d605c6a2de'
+      - id: '1f601c0a-8eb8-414c-a37b-ca6ad0f1dd9f'
+      - id: '885b5e33-c612-490e-ae3b-df2da9690fe3'
+      - id: '7200b278-7752-43ed-9382-b86fd27285b5'
+      - id: '4d929701-4c10-4474-968a-5651e75ee9fa'
+      - id: 'd8b483db-65da-439f-9405-90df37ac46cc'
+      - id: '38eb624f-19da-4a2b-b867-20b207a2579a'
+      - id: '29fce8e0-6261-4ac1-9612-ba6dd77d487c'
+      - id: 'c2f1fbf6-c3c9-4333-874e-2a6e66f7b1db'
+      - id: 'b8249471-d6d4-4f75-9525-d6c158f86679'
+      - id: '6b3b0d6f-8612-4ec7-b991-90d3929272ec'
+      - id: '0b2cb3d3-fc57-4bdd-86d5-1cdc3d3f07a2'
+      - id: 'a6d5d169-ac8a-40b3-9602-a1bb0fd0f874'
+      - id: '8ab26e45-991c-4a69-8dda-0f7db1f883c4'
+      - id: 'dcf30530-65f0-48c4-b190-1ed9e2573da3'
+      - id: 'ac62d0de-4655-439b-8dbb-73387d362a77'
+      - id: '0feddf3d-3f59-4372-b0e4-b3bb3a066213'
+      - id: '9b2f3f67-82e1-4f5d-945b-6e89e7570156'
+      - id: '4df266f2-377b-4b14-afe6-13022e0fd5a3'
+      - id: '212370c6-2c25-4cfc-92f8-41bd8c4fbb54'
+      - id: 'f85f3f09-0f34-4dff-9015-62982868d8f2'
+      - id: '6564dcb2-04b7-40ee-9c5a-f972bad946aa'
+      - id: '4b73965d-fbb0-4967-9884-ac221e390a3f'
+      - id: '0114ba6c-dd8e-4132-9b8e-3a6ea1a0a098'
+      - id: '259ae2aa-769d-45c2-b516-65dd10bb4f71'
+      - id: '5ebd1068-5563-4345-a374-971e9e37c3de'
+      - id: '066430f3-cc5d-4b5c-9aaa-f1a3ba0490a1'
+      - id: '518e6017-d18f-4b47-9dba-c253338b9f34'
+      - id: '2bbf9f58-a606-44ef-9845-95c80f10086c'
+      - id: 'bc7e83af-7580-4491-bb1d-abbd03a55728'
+      - id: '4a4d60f1-d940-4517-a244-614eea6b50d1'
+      - id: '6e3accf3-9016-44f3-8562-7981ec38e7fe'
+      - id: '1c2feaae-3a2c-40a0-83c9-196892447b2e'
+      - id: 'ecfe5d68-ef6f-47ca-9921-25d7336ca559'
+      - id: 'fb4c1945-af72-420d-9ab5-335bd007faa0'
+      - id: '0f39a5b3-651f-409c-9d38-716aa2451b20'
+      - id: '4838d5c5-357e-44a5-9493-fcb7a613b588'
+      - id: 'c3f676b5-ffec-411e-b197-5da6470a5e7b'
   - id: 'eb1a51ae-bd24-4087-90cd-314a9022aca9'
     name: 'Datamodel View 1'
     description: 'Default view for data model.'
-    type: 'data-model'
     default: true
+    type: 'data-model'
     modelObjects:
-      - id: 'dbaa03a0-471b-475f-8450-f50111da0095'
-        x: 622
-        'y': 533
+      - id: '2bbf9f58-a606-44ef-9845-95c80f10086c'
         collapsed: true
-      - id: 'a6b4c36d-5cbe-4286-b5e2-52209649128b'
-        x: 611
-        'y': 10
+        x: 1355
+        'y': 430
+      - id: 'bc7e83af-7580-4491-bb1d-abbd03a55728'
         collapsed: true
-      - id: '165e1362-f4b4-4e1f-a868-a9ae785aef45'
-        x: -15
-        'y': 294
+        x: 1282.8333282470703
+        'y': 38
+      - id: '4a4d60f1-d940-4517-a244-614eea6b50d1'
         collapsed: true
-      - id: '326560d9-00bd-42ce-885c-9942510783cc'
-        x: 282
-        'y': 289
+        x: 965.6666564941406
+        'y': 39
+      - id: '6e3accf3-9016-44f3-8562-7981ec38e7fe'
         collapsed: true
-      - id: '259e8329-cc37-4256-a53c-2d185c282c4e'
-        x: 613
-        'y': 148
+        x: 1287.499984741211
+        'y': 156
+      - id: '1c2feaae-3a2c-40a0-83c9-196892447b2e'
         collapsed: true
-      - id: '85ccd98d-e08e-4d36-9cc3-21bedf56a677'
-        x: 621
-        'y': 407
+        x: 1353.8333282470703
+        'y': 315
+      - id: 'ecfe5d68-ef6f-47ca-9921-25d7336ca559'
         collapsed: true
-      - id: '38467870-de18-49d6-8e66-df28cad54b43'
-        x: 621
-        'y': 288
-        collapsed: true
+        x: 959
+        'y': 211
