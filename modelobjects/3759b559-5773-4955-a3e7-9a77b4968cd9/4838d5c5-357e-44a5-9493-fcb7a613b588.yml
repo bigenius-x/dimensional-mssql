@@ -131,6 +131,18 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '1ffbcd60-0e28-406b-8d36-6a9e4fbde71d'
+    name: 'SALES_PRICE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 18
+      scale: 2
 dataflows:
   - id: 'b35bd464-0bb1-454d-acfb-49c83346a1aa'
     name: 'Dataflow1'
@@ -168,3 +180,5 @@ dataflows:
             termId: '6afdb8d0-98fc-4822-bf14-5cbfea863737'
           - expression: 'd2a311ca-2150-4904-99f1-0b15726c2def.50fb1bef-850e-4bc8-bab4-71b231a72d8b'
             termId: 'd3a683cb-0ea2-4992-994d-aa926d74f369'
+          - expression: 'd2a311ca-2150-4904-99f1-0b15726c2def.9d693e3f-46bd-449d-a8a3-855ef0332290'
+            termId: '1ffbcd60-0e28-406b-8d36-6a9e4fbde71d'
