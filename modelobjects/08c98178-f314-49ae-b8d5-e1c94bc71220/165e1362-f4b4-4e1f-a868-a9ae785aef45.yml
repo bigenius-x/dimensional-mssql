@@ -163,10 +163,7 @@ dataflows:
     dataflowSets:
       - id: 'a042a6e8-359b-4034-8c74-2b84f9c2649e'
         name: 'Set1'
-        dataflowModelObjects:
-          - id: '81dcfe02-337d-4ed8-b310-18c32337541f'
-            alias: 's1'
-            sourceModelObjectId: '3322ff17-72dc-45d2-a8d7-6d3122e3838d'
+        dataflowModelObjects: []
         termMappings:
           - termId: 'e0733136-8840-4d44-bda9-fe0b9069846e'
           - termId: '0a18943c-e10f-4715-9f3f-f0ddd18f8fc6'
@@ -178,8 +175,6 @@ dataflows:
           - termId: '475b424b-2440-4309-93d9-a3eaa6ba3e87'
           - termId: '552efc5a-6de3-4c51-a081-f34dbd48e38d'
           - termId: '384e110e-cc92-4aa7-b11c-c9174f9825b1'
-          - expression: '81dcfe02-337d-4ed8-b310-18c32337541f.497d58b9-bbfd-4be5-bc31-e4eeeb68fdd3'
-            termId: '18643b7f-2c9b-4b5e-96e3-cc0fee78297b'
-          - expression: '81dcfe02-337d-4ed8-b310-18c32337541f.e209bb62-d990-4275-968a-e9c5eba177c5'
-            termId: '59d3b5df-d554-4edf-9b7e-543d7d0aa541'
+          - termId: '18643b7f-2c9b-4b5e-96e3-cc0fee78297b'
+          - termId: '59d3b5df-d554-4edf-9b7e-543d7d0aa541'
 relationships: []

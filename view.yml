@@ -5,7 +5,6 @@ views:
     default: true
     type: 'data-pipe'
     modelObjects:
-      - id: '3322ff17-72dc-45d2-a8d7-6d3122e3838d'
       - id: '06a9cd17-3506-4e0c-80be-8b003faf4aac'
       - id: '5110100e-a1f1-49b2-9c2a-89da4a13ee52'
       - id: '4353b1b3-f913-47c0-865a-a0132f28eed3'
