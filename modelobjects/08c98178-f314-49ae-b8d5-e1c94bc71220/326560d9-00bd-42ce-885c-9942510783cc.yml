@@ -219,10 +219,7 @@ dataflows:
     dataflowSets:
       - id: '637f6797-72e1-442a-8e48-402bd2d01524'
         name: 'Set1'
-        dataflowModelObjects:
-          - id: '1a8b6d4b-4b73-4372-8527-948d67f4fd80'
-            alias: 's1'
-            sourceModelObjectId: '06a9cd17-3506-4e0c-80be-8b003faf4aac'
+        dataflowModelObjects: []
         termMappings:
           - termId: '8c2080aa-9055-4d75-8a1a-8ac11da757b9'
           - termId: 'e8ec24c3-6484-4704-a598-41c5c8ce32db'
@@ -234,19 +231,13 @@ dataflows:
           - termId: 'cc7eb321-c8d5-410e-afb9-7a2eb0039be5'
           - termId: 'ea552e2c-5b55-49fd-844b-af0c837e5981'
           - termId: '85e65cc9-41f6-40fd-aba4-e2b11db74fe5'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.d5c6441c-ac37-496f-9ced-cecf5a68fe94'
-            termId: 'aeb2d0a2-fe96-4227-905d-171af40874d7'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.437683fa-9cbf-4d0c-a463-b80da54d5bb5'
-            termId: 'f3d20a2e-fd4f-4f86-aec3-c29fee0071f3'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.d5c6441c-ac37-496f-9ced-cecf5a68fe94'
-            termId: '81ed4918-0c37-4699-b947-996d13633319'
+          - termId: 'aeb2d0a2-fe96-4227-905d-171af40874d7'
+          - termId: 'f3d20a2e-fd4f-4f86-aec3-c29fee0071f3'
+          - termId: '81ed4918-0c37-4699-b947-996d13633319'
           - termId: '79d71368-4ec4-4e04-832a-251ca7fca432'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.8a1ed0a7-819e-438c-962c-422696b38dda'
-            termId: '79800c4f-5776-45d8-98d6-38bf7ad4ad84'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.90e80da8-5d93-40ac-8eba-9e5407eec06d'
-            termId: 'c8da0163-84e8-4a11-b1b7-3f17cb73ef27'
-          - expression: '1a8b6d4b-4b73-4372-8527-948d67f4fd80.bbc9b890-56a4-48b1-89ee-a173793324a9'
-            termId: 'c43b2adf-0625-4c1c-9dda-21b81af4dece'
+          - termId: '79800c4f-5776-45d8-98d6-38bf7ad4ad84'
+          - termId: 'c8da0163-84e8-4a11-b1b7-3f17cb73ef27'
+          - termId: 'c43b2adf-0625-4c1c-9dda-21b81af4dece'
 relationships:
   - id: '8f9a7543-3983-4da7-85c6-8286b182d18e'
     historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
