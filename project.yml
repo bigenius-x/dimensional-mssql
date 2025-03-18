@@ -9,6 +9,6 @@ sourceSystems:
   - id: '2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
     name: 'Blackforest Markets'
     description: ''
-    activeDiscovery: 'e5854651-06de-44d4-b869-e20cedb601b0'
+    activeDiscovery: ''
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
 propertyValues: []
