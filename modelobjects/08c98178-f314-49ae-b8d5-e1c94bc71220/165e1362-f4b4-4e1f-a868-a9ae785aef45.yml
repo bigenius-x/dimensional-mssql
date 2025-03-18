@@ -179,6 +179,18 @@ terms:
     dataType:
       length: 10
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '21e3d19a-7034-4e5b-8a6e-5472afa49276'
+    name: 'PER_QUANTITY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'ea625964-ee65-4825-8d1b-87ebbd7baa31'
+      precision: 18
+      scale: 2
 dataflows:
   - id: '9d17f406-3b01-42ae-8beb-377b764b1624'
     name: 'Dataflow1'
@@ -208,4 +220,6 @@ dataflows:
             termId: '9b493ef4-5cbd-4e7c-82d0-bbb140f85a31'
           - expression: 'a501bc9a-1ed6-49ca-84ab-3b50475518bc.89e7e7c8-bed2-451b-9c78-532a97f0bf8e'
             termId: '88444842-fd92-445b-87aa-8d81a6f8e6fc'
+          - expression: 'a501bc9a-1ed6-49ca-84ab-3b50475518bc.888c2e18-7dc3-4625-a9fc-ba5a8b3e6a2f'
+            termId: '21e3d19a-7034-4e5b-8a6e-5472afa49276'
 relationships: []
