@@ -197,8 +197,10 @@ dataflows:
             propertyValues: []
           - id: '77617970-4176-4695-a9ee-047c50fe1f37'
             alias: 's3'
-            joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
+            joinExpression: '77617970-4176-4695-a9ee-047c50fe1f37.a7041a69-5be7-45ee-8ea0-17938e0e1afd = b801aaee-374f-4ad8-8183-a4c52241a823.438fd5e3-6a5d-4a09-8213-88165126867d'
+            joinOperatorId: '2ce27585-2f88-444e-9bfb-759ee2013148'
             sourceModelObjectId: '5ebd1068-5563-4345-a374-971e9e37c3de'
+            propertyValues: []
         termMappings:
           - termId: '28b5e38e-005c-435f-97bf-64f7dcf5511b'
           - termId: '7d6d0b78-7ce8-41fb-8f1f-dd4c629af4a9'
