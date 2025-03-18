@@ -195,10 +195,6 @@ dataflows:
             joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
             sourceModelObjectId: '0f39a5b3-651f-409c-9d38-716aa2451b20'
             propertyValues: []
-          - id: '556c4e1f-bf6b-474b-9a57-78c252d265bb'
-            alias: 's3'
-            joinOperatorId: '1c106214-02db-4770-b9df-48a855f277fb'
-            sourceModelObjectId: '0114ba6c-dd8e-4132-9b8e-3a6ea1a0a098'
         termMappings:
           - termId: '28b5e38e-005c-435f-97bf-64f7dcf5511b'
           - termId: '7d6d0b78-7ce8-41fb-8f1f-dd4c629af4a9'
