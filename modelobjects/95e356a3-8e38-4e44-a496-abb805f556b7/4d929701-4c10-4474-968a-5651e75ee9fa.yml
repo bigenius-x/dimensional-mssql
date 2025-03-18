@@ -1,0 +1,54 @@
+id: '4d929701-4c10-4474-968a-5651e75ee9fa'
+name: 'DEPARTMENT'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'f6874d86-c082-470b-b099-4f38724d83ee'
+    name: 'DEPARTMENT_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: '6577ebf9-bc98-469b-b599-9fd6c4299819'
+    name: 'BRANCH_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
+      precision: 10
+      scale: 0
+  - id: 'a5e0cb08-b42b-459d-a057-e83a9050846f'
+    name: 'DEPARTMENT_DE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 50
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+  - id: '7326568c-cc9c-48a0-b768-78e5a0d04008'
+    name: 'DEPARTMENT_EN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 50
+      platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
+tags:
+  - '$discovery#id#c87dcd0f-f8a5-4c5c-9ff8-bc24608d3189'
+  - '$initial#name#department'
+  - '$sourcesystem#id#2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
