@@ -97,7 +97,7 @@ terms:
       length: 4000
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '3aea0600-4f79-46bc-945b-f36d5a84e72a'
-    name: 'BRANCH_ID'
+    name: 'BRANCH_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

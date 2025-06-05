@@ -97,7 +97,7 @@ terms:
       length: 4000
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '31561d87-d9a6-4adf-ae43-a1b47f208537'
-    name: 'LOYALTYCARD_ID'
+    name: 'LOYALTYCARD_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false
@@ -161,7 +161,7 @@ terms:
       precision: 10
       scale: 0
   - id: '55923a3b-403f-4d4b-9783-163191cdbd2a'
-    name: 'CUSTOMER_CUSTOMER_ID'
+    name: 'CUSTOMER_CUSTOMER_SK'
     description: 'Default term with the identity of the referenced entity'
     defaultTermId: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
     hiddenInSource: false
