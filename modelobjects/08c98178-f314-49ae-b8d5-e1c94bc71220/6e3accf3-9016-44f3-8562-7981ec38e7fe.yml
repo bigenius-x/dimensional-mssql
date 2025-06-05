@@ -161,7 +161,7 @@ terms:
       precision: 10
       scale: 0
   - id: '55923a3b-403f-4d4b-9783-163191cdbd2a'
-    name: 'CUSTOMER_CUSTOMER_ID'
+    name: 'CUSTOMER_CUSTOMER_SK'
     description: 'Default term with the identity of the referenced entity'
     defaultTermId: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
     hiddenInSource: false
