@@ -97,7 +97,7 @@ terms:
       length: 4000
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: 'ca904127-fba3-4abf-ad79-6ddd73d75690'
-    name: 'POS_ID'
+    name: 'POS_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false

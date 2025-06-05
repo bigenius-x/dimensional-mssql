@@ -1,7 +1,4 @@
 DefaultTerms:
-  - InternalCode: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
-    Name: 'BG_Entity_Identity'
-    NamingConvention: '{{ModelObject.Name}}_ID'
   - InternalCode: 'b5610dd2-4c6d-414d-ac01-8a3affa55b07'
     Name: 'BG_Entity_ForeignKey_Identity'
     NamingConvention: '{{ReferencedModelObject.Name}}_{{Role}}_ID'

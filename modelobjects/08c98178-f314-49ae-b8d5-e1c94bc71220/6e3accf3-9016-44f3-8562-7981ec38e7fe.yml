@@ -97,7 +97,7 @@ terms:
       length: 4000
       platformDataTypeId: 'bdf6e2aa-9167-4949-9f69-735bbf516472'
   - id: '31561d87-d9a6-4adf-ae43-a1b47f208537'
-    name: 'LOYALTYCARD_ID'
+    name: 'LOYALTYCARD_SK'
     description: 'Default term with the entity identity'
     defaultTermId: '814e894a-6f79-45f1-aaaa-90ef30e7c062'
     hiddenInSource: false
