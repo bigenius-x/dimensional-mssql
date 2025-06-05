@@ -1,4 +1,1 @@
-DefaultTerms:
-  - InternalCode: '59d597b6-3b78-42c9-85f0-02c68f428094'
-    Name: 'BG_Fact_ForeignKey_Identity'
-    NamingConvention: '{{ReferencedModelObject.Name}}_{{Role}}_ID'
+DefaultTerms: []

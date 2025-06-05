@@ -97,7 +97,7 @@ terms:
       precision: 10
       scale: 0
   - id: '52a924f6-0c79-4915-8cc2-c05f0f6601ef'
-    name: 'BRANCH_BRANCH_ID'
+    name: 'CUSTOMER_BRANCH_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -124,7 +124,7 @@ terms:
       precision: 10
       scale: 0
   - id: '48eb2403-fe06-4bce-a2fe-aa380754877a'
-    name: 'ITEM_ITEM_ID'
+    name: 'CUSTOMER_ITEM_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -151,7 +151,7 @@ terms:
       precision: 10
       scale: 0
   - id: '6c8f7626-1772-4db8-aebc-849f706d9ae8'
-    name: 'LOYALTYCARD_LOYALTYCARD_ID'
+    name: 'CUSTOMER_LOYALTYCARD_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -178,7 +178,7 @@ terms:
       precision: 10
       scale: 0
   - id: 'af7802a7-f952-4987-a358-3bba39029640'
-    name: 'CUSTOMER_CUSTOMER_ID'
+    name: 'CUSTOMER_CUSTOMER_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false

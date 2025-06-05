@@ -97,7 +97,7 @@ terms:
       precision: 10
       scale: 0
   - id: 'f26d492a-bfe7-4a51-b845-72dad7b2a88b'
-    name: 'ITEM_ITEM_ID'
+    name: 'POS_ITEM_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -124,7 +124,7 @@ terms:
       precision: 10
       scale: 0
   - id: '8aa72a31-7060-4aae-b374-f3ee3b05067c'
-    name: 'LOYALTYCARD_LOYALTYCARD_ID'
+    name: 'POS_LOYALTYCARD_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
@@ -151,7 +151,7 @@ terms:
       precision: 10
       scale: 0
   - id: 'eff0971b-7d38-4990-9982-2269f27eadf0'
-    name: 'POS_POS_ID'
+    name: 'POS_POS_SK'
     description: 'Default term with the identity of the referenced entity record'
     defaultTermId: '59d597b6-3b78-42c9-85f0-02c68f428094'
     hiddenInSource: false
