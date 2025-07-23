@@ -187,6 +187,34 @@ terms:
       platformDataTypeId: '9d8d167b-ffbb-4498-8721-de74c859dad5'
       precision: 10
       scale: 0
+  - id: 'd91d7869-379b-4535-ae35-9bdb1ebb2731'
+    name: 'BG_RowHashScd1'
+    description: 'Default term that stores the computed hash value for Scd1 attributes'
+    defaultTermId: '1df6f52e-a677-4a2f-b2ed-343e9f52f743'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
+  - id: '46e55820-7954-469c-803b-61f586d7d0bd'
+    name: 'BG_RowHashScd2'
+    description: 'Default term that stores the computed hash value for Scd2 attributes'
+    defaultTermId: 'a2053c5d-c56a-4ba2-8871-558ee18f735c'
+    hiddenInSource: false
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      length: 20
+      platformDataTypeId: '77e450ef-2083-4296-a00e-3da0da7ad152'
 dataflows:
   - id: '57b5af5a-8f2e-4da0-afdb-fa71c729a1f5'
     name: 'Dataflow1'
@@ -215,6 +243,21 @@ dataflows:
           - termId: '1cee4af4-b65a-4f90-b8c6-32ab38a1eac5'
           - expression: 'e59e3c40-0a84-481c-ad76-ef4342ef0df4.b7910e3c-3e84-41d0-93e5-8dffe86b4c57'
             termId: '690c6eed-4519-449f-81a1-8372521e649e'
+          - termId: 'd91d7869-379b-4535-ae35-9bdb1ebb2731'
+          - termId: '46e55820-7954-469c-803b-61f586d7d0bd'
+dataQualityChecks:
+  - id: '62e2fda7-468a-41b2-bf53-eae1fc6e11db'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: 'b4ac2eb6-a6d3-47d9-967a-f0f1bb44cf1b'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships:
   - id: '3a9d5078-0685-4bda-a9bf-0e3ea8967b2b'
     historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
@@ -223,6 +266,13 @@ relationships:
     role: 'BRANCH'
     additionalTermIds:
       - '1cee4af4-b65a-4f90-b8c6-32ab38a1eac5'
+    dataQualityChecks:
+      - id: '96ca2b80-1dde-4060-abb6-01e8ca351a0a'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '22be1b3b-5a9f-4739-ae40-3e7876f03bba'
         termId: '2b7d545a-ecdb-4b7b-8ae1-bbfe7c9dcf73'
