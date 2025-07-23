@@ -1,5 +1,5 @@
 id: '3e53760d-b9e1-4b9d-dfd5-08dcabe8445a'
-name: 'Dimensional MSSQL'
+name: 'DimensionalMSSQL'
 description: 'Demo Project for Dimensional MSSQL'
 version: 'v1.6'
 configuration:
