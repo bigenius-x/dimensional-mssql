@@ -1,7 +1,7 @@
 id: '3e53760d-b9e1-4b9d-dfd5-08dcabe8445a'
 name: 'Dimensional MSSQL'
 description: 'Demo Project for Dimensional MSSQL'
-version: 'v1.5'
+version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
   version: '1.9.2'
