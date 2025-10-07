@@ -1,6 +1,7 @@
 id: '3e53760d-b9e1-4b9d-dfd5-08dcabe8445a'
 name: 'DimensionalMSSQL'
 description: 'Demo Project for Dimensional MSSQL'
+artifactsFolderStructure: 'oneFolder'
 version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
