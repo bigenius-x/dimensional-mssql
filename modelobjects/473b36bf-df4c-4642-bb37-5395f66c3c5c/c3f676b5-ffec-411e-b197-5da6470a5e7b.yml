@@ -387,6 +387,12 @@ relationships:
         executionBehaviour: 'Before'
         isActive: true
         logging: true
+      - id: 'b3e74382-308a-43f3-95d0-062acfe8d188'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '22be1b3b-5a9f-4739-ae40-3e7876f03bba'
         termId: '0857199d-0210-4053-abc2-faa321ecd291'
@@ -399,6 +405,12 @@ relationships:
       - '48eb2403-fe06-4bce-a2fe-aa380754877a'
     dataQualityChecks:
       - id: '61aec198-0e32-4d3a-b029-57e95105b26b'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
+      - id: 'b3e74382-308a-43f3-95d0-062acfe8d188'
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
@@ -421,6 +433,12 @@ relationships:
         executionBehaviour: 'Before'
         isActive: true
         logging: true
+      - id: 'b3e74382-308a-43f3-95d0-062acfe8d188'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '7e94d6d9-924e-40f7-90ac-54ab0e93ecf6'
         termId: 'a350b1d9-6ba2-45ce-8ccd-6e165d15fa2e'
@@ -433,6 +451,12 @@ relationships:
       - 'af7802a7-f952-4987-a358-3bba39029640'
     dataQualityChecks:
       - id: '61aec198-0e32-4d3a-b029-57e95105b26b'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
+      - id: 'b3e74382-308a-43f3-95d0-062acfe8d188'
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'

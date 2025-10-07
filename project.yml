@@ -4,11 +4,13 @@ description: 'Demo Project for Dimensional MSSQL'
 version: 'v1.6'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Dimensional.Mssql'
-  version: '1.10.2'
+  version: '1.10.3'
 sourceSystems:
   - id: '2c420864-80c6-48fc-b0f9-3c2398cc0cfc'
     name: 'Blackforest Markets'
     description: ''
     activeDiscovery: 'c87dcd0f-f8a5-4c5c-9ff8-bc24608d3189'
     sourceSystemTypeId: 'f69491d8-eed8-43a0-89f9-60195b3415c2'
-propertyValues: []
+propertyValues:
+  - propertyId: 'cfd1b8b1-d581-4621-8a37-a1adb88ecc67'
+    value: 'Column Comparison'

@@ -370,4 +370,16 @@ dataQualityChecks:
     executionBehaviour: 'Before'
     isActive: true
     logging: true
+  - id: '7e03b734-2072-4c56-8486-7c71ec7d6a4f'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: 'b80f78e7-3096-4f4e-bb73-c3c2c68a72b3'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships: []

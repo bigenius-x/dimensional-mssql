@@ -258,6 +258,18 @@ dataQualityChecks:
     executionBehaviour: 'Before'
     isActive: true
     logging: true
+  - id: '533daf6c-37c2-4cd8-934e-610ff99db1b9'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: 'a6b2f192-79b7-4653-894b-02e32896e0c5'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships:
   - id: '3a9d5078-0685-4bda-a9bf-0e3ea8967b2b'
     historizationTypeId: '7706a400-b271-4b4c-b714-80ad653429e3'
@@ -268,6 +280,12 @@ relationships:
       - '1cee4af4-b65a-4f90-b8c6-32ab38a1eac5'
     dataQualityChecks:
       - id: '96ca2b80-1dde-4060-abb6-01e8ca351a0a'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
+      - id: '9c1d9dd7-78d5-4fc1-be2c-60e77335dac4'
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'

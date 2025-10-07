@@ -285,4 +285,16 @@ dataQualityChecks:
     executionBehaviour: 'Before'
     isActive: true
     logging: true
+  - id: '8b848de9-2cec-4b13-90f8-7d833b47ed0d'
+    continueOnFailure: false
+    dataQualityCheckId: 'b2fbd77c-0a29-49a6-b1de-713418d8c48f'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
+  - id: '2b9479e9-7547-48aa-946e-72412789c5cb'
+    continueOnFailure: false
+    dataQualityCheckId: '6f7f1a31-6cd2-4917-a1da-7d34330c4147'
+    executionBehaviour: 'Before'
+    isActive: true
+    logging: true
 relationships: []

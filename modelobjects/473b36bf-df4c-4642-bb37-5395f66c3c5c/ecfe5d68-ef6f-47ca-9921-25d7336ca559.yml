@@ -344,6 +344,12 @@ relationships:
         executionBehaviour: 'Before'
         isActive: true
         logging: true
+      - id: '821200cd-d0a5-42df-897d-fd312cba0f7a'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '74236c96-be8f-4a9b-924d-2cc38266d647'
         termId: '9eddaf5c-8fe0-47b5-b5d3-94abe094e900'
@@ -361,6 +367,12 @@ relationships:
         executionBehaviour: 'Before'
         isActive: true
         logging: true
+      - id: '821200cd-d0a5-42df-897d-fd312cba0f7a'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
     relationshipTerms:
       - referenceTermId: '7e94d6d9-924e-40f7-90ac-54ab0e93ecf6'
         termId: 'e06b1a76-ebbf-4527-8a3a-42bcfba69ec1'
@@ -373,6 +385,12 @@ relationships:
       - 'eff0971b-7d38-4990-9982-2269f27eadf0'
     dataQualityChecks:
       - id: '865db9c8-e058-44bc-996e-ba1de0394175'
+        continueOnFailure: true
+        dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
+        executionBehaviour: 'Before'
+        isActive: true
+        logging: true
+      - id: '821200cd-d0a5-42df-897d-fd312cba0f7a'
         continueOnFailure: true
         dataQualityCheckId: 'a4eec1d1-2ebc-456f-9ee6-bee930205c9f'
         executionBehaviour: 'Before'
